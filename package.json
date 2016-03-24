@@ -3,6 +3,15 @@
   "version": "1.0.1",
   "description": "loopback storage component",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/MrMartiniMo/loopback-component-storage-gridfs.git"
+  },
+  "keywords": [
+    "loopback",
+    "mongodb",
+    "gridfs"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

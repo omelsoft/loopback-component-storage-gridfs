@@ -45,10 +45,6 @@ GET /FileContainers
 FileContainer.getContainers();
 ```
 
-#### Arguments
-
-* none
-
 <hr>
 
 ### Delete container
@@ -62,8 +58,6 @@ FileContainer.deleteContainer({
   fileId: 'fileId'
 });
 ```
-
-#### Arguments
 
   * **containerName** - name of container to delete
 
@@ -80,8 +74,6 @@ FileContainer.getFiles({
 });
 ```
 
-#### Arguments
-
   * **containerName** - name of container
 
 <hr>
@@ -97,8 +89,6 @@ FileContainer.getFile({
   fileId: 'fileId'
 });
 ```
-
-#### Arguments
 
   * **containerName** - name of container
   * **fileId** - id of file
