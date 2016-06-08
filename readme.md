@@ -76,6 +76,9 @@ FileContainer.getFiles({
 
   * **containerName** - name of container
 
+Errors:
+* **404** File not found.
+
 <hr>
 
 ### Get file information
@@ -130,3 +133,19 @@ GET /FileContainers/:containerName/download/:fileId
 
 * **containerName** - name of container
 * **fileId** - id of file to download
+
+Errors:
+* **404** File not found.
+
+<hr>
+
+### Download container as zip file
+
+```
+GET /FileContainers/:containerName/zip
+```
+
+* **containerName** - name of container
+
+Errors:
+* **404** No files to archive.
