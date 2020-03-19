@@ -21,7 +21,7 @@ npm install --save loopback-component-storage-gridfs
 Add datasource to your datasources.json
 
 ```json
-"storage": {
+"gridfs": {
    "name": "gridfs",
    "connector": "loopback-component-storage-gridfs",
    "host": "hostname",
